@@ -179,6 +179,7 @@
 				847520FB2C03EAB0009B2ADA /* Sources */,
 				847520FC2C03EAB0009B2ADA /* Frameworks */,
 				847520FD2C03EAB0009B2ADA /* Resources */,
+				847521412C03F580009B2ADA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -294,6 +295,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		847521412C03F580009B2ADA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftLint\nSTART_DATE=$(date +\"%s\")\n\nSWIFT_LINT=/usr/local/bin/swiftlint\n\n# Run SwiftLint for given filename\nrun_swiftlint() {\n    local filename=\"${1}\"\n    if [[ \"${filename##*.}\" == \"swift\" ]]; then\n        #${SWIFT_LINT} autocorrect --path \"${filename}\"\n        ${SWIFT_LINT} lint --path \"${filename}\"\n    fi\n}\n\nif [[ -e \"${SWIFT_LINT}\" ]]; then\n    echo \"SwiftLint version: $(${SWIFT_LINT} version)\"\n    # Run for both staged and unstaged files\n    git diff --name-only | while read filename; do run_swiftlint \"${filename}\"; done\n    git diff --cached --name-only | while read filename; do run_swiftlint \"${filename}\"; done\nelse\n    echo \"${SWIFT_LINT} is not installed.\"\n    exit 0\nfi\n\nEND_DATE=$(date +\"%s\")\n\nDIFF=$(($END_DATE - $START_DATE))\necho \"SwiftLint took $(($DIFF / 60)) minutes and $(($DIFF % 60)) seconds to complete.\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		847520FB2C03EAB0009B2ADA /* Sources */ = {
@@ -497,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,6 +546,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
