@@ -8,7 +8,7 @@
 import Foundation
 
 struct StoreResponse: Codable {
-    let spotlights: [SpotlightItem]
+    let spotlight: [SpotlightItem]
     let products: [ProductItem]
     let cash: CashItem
 }

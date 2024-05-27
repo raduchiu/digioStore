@@ -8,31 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		847521032C03EAB0009B2ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521022C03EAB0009B2ADA /* AppDelegate.swift */; };
-		847521052C03EAB0009B2ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521042C03EAB0009B2ADA /* SceneDelegate.swift */; };
 		847521072C03EAB0009B2ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521062C03EAB0009B2ADA /* ViewController.swift */; };
 		8475210A2C03EAB0009B2ADA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 847521092C03EAB0009B2ADA /* Base */; };
 		8475210C2C03EAB1009B2ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475210B2C03EAB1009B2ADA /* Assets.xcassets */; };
 		8475210F2C03EAB1009B2ADA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8475210E2C03EAB1009B2ADA /* Base */; };
-		8475211A2C03EAB1009B2ADA /* digioStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521192C03EAB1009B2ADA /* digioStoreTests.swift */; };
-		847521242C03EAB1009B2ADA /* digioStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521232C03EAB1009B2ADA /* digioStoreUITests.swift */; };
-		847521262C03EAB1009B2ADA /* digioStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521252C03EAB1009B2ADA /* digioStoreUITestsLaunchTests.swift */; };
 		847521342C03EF6E009B2ADA /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521332C03EF6E009B2ADA /* ProductService.swift */; };
 		847521372C03F02F009B2ADA /* StoreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521362C03F02F009B2ADA /* StoreResponse.swift */; };
 		847521392C03F083009B2ADA /* CashItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521382C03F083009B2ADA /* CashItem.swift */; };
 		8475213B2C03F0C4009B2ADA /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475213A2C03F0C4009B2ADA /* ProductItem.swift */; };
 		8475213D2C03F102009B2ADA /* SpotlightItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475213C2C03F102009B2ADA /* SpotlightItem.swift */; };
 		847521402C03F172009B2ADA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475213F2C03F172009B2ADA /* UIImage+Extension.swift */; };
+		847521452C03F9CA009B2ADA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521442C03F9CA009B2ADA /* HomeViewModel.swift */; };
+		847521482C03FAC9009B2ADA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521472C03FAC9009B2ADA /* Constants.swift */; };
+		8475214B2C03FC4E009B2ADA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475214A2C03FC4E009B2ADA /* ProductCell.swift */; };
+		8475214D2C03FC6D009B2ADA /* SpotlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475214C2C03FC6D009B2ADA /* SpotlightCell.swift */; };
+		8475214F2C03FCEB009B2ADA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475214E2C03FCEB009B2ADA /* HomeViewController.swift */; };
+		847521512C03FE98009B2ADA /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521502C03FE98009B2ADA /* ProductDetailViewController.swift */; };
+		847521532C03FEC3009B2ADA /* ProductVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521522C03FEC3009B2ADA /* ProductVIewModel.swift */; };
+		847521552C0400B5009B2ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521542C0400B5009B2ADA /* SceneDelegate.swift */; };
+		847521692C041AC0009B2ADA /* ProductServiceTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521662C041909009B2ADA /* ProductServiceTTests.swift */; };
+		8475216A2C041AC0009B2ADA /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521602C041756009B2ADA /* TestHelper.swift */; };
+		8475216B2C041AC0009B2ADA /* HomeVIewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521632C041812009B2ADA /* HomeVIewModelTests.swift */; };
+		8475216C2C041AC0009B2ADA /* SpotlightCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521572C041133009B2ADA /* SpotlightCellTests.swift */; };
+		8475216D2C041AC0009B2ADA /* ProductCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475215A2C04143D009B2ADA /* ProductCellTests.swift */; };
+		8475216E2C041AC0009B2ADA /* digioStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521192C03EAB1009B2ADA /* digioStoreTests.swift */; };
+		847521762C0423A0009B2ADA /* ProductVIewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521752C0423A0009B2ADA /* ProductVIewModelTest.swift */; };
+		847521792C04269C009B2ADA /* ProductDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847521782C04269C009B2ADA /* ProductDetailViewControllerTests.swift */; };
+		8475217B2C04270E009B2ADA /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475217A2C04270E009B2ADA /* HomeViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		847521162C03EAB1009B2ADA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 847520F72C03EAB0009B2ADA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 847520FE2C03EAB0009B2ADA;
-			remoteInfo = digioStore;
-		};
-		847521202C03EAB1009B2ADA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 847520F72C03EAB0009B2ADA /* Project object */;
 			proxyType = 1;
@@ -44,7 +50,6 @@
 /* Begin PBXFileReference section */
 		847520FF2C03EAB0009B2ADA /* digioStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digioStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847521022C03EAB0009B2ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847521042C03EAB0009B2ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		847521062C03EAB0009B2ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		847521092C03EAB0009B2ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8475210B2C03EAB1009B2ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,15 +57,28 @@
 		847521102C03EAB1009B2ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847521152C03EAB1009B2ADA /* digioStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digioStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847521192C03EAB1009B2ADA /* digioStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digioStoreTests.swift; sourceTree = "<group>"; };
-		8475211F2C03EAB1009B2ADA /* digioStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digioStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		847521232C03EAB1009B2ADA /* digioStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digioStoreUITests.swift; sourceTree = "<group>"; };
-		847521252C03EAB1009B2ADA /* digioStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digioStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		847521332C03EF6E009B2ADA /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		847521362C03F02F009B2ADA /* StoreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreResponse.swift; sourceTree = "<group>"; };
 		847521382C03F083009B2ADA /* CashItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashItem.swift; sourceTree = "<group>"; };
 		8475213A2C03F0C4009B2ADA /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		8475213C2C03F102009B2ADA /* SpotlightItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightItem.swift; sourceTree = "<group>"; };
 		8475213F2C03F172009B2ADA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		847521442C03F9CA009B2ADA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		847521472C03FAC9009B2ADA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8475214A2C03FC4E009B2ADA /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8475214C2C03FC6D009B2ADA /* SpotlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCell.swift; sourceTree = "<group>"; };
+		8475214E2C03FCEB009B2ADA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		847521502C03FE98009B2ADA /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		847521522C03FEC3009B2ADA /* ProductVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVIewModel.swift; sourceTree = "<group>"; };
+		847521542C0400B5009B2ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847521572C041133009B2ADA /* SpotlightCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCellTests.swift; sourceTree = "<group>"; };
+		8475215A2C04143D009B2ADA /* ProductCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellTests.swift; sourceTree = "<group>"; };
+		847521602C041756009B2ADA /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		847521632C041812009B2ADA /* HomeVIewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIewModelTests.swift; sourceTree = "<group>"; };
+		847521662C041909009B2ADA /* ProductServiceTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceTTests.swift; sourceTree = "<group>"; };
+		847521752C0423A0009B2ADA /* ProductVIewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVIewModelTest.swift; sourceTree = "<group>"; };
+		847521782C04269C009B2ADA /* ProductDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		8475217A2C04270E009B2ADA /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +96,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8475211C2C03EAB1009B2ADA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				847521012C03EAB0009B2ADA /* digioStore */,
+				847521592C041379009B2ADA /* digioStoreUITests */,
 				847521182C03EAB1009B2ADA /* digioStoreTests */,
-				847521222C03EAB1009B2ADA /* digioStoreUITests */,
 				847521002C03EAB0009B2ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +114,6 @@
 			children = (
 				847520FF2C03EAB0009B2ADA /* digioStore.app */,
 				847521152C03EAB1009B2ADA /* digioStoreTests.xctest */,
-				8475211F2C03EAB1009B2ADA /* digioStoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,16 +121,19 @@
 		847521012C03EAB0009B2ADA /* digioStore */ = {
 			isa = PBXGroup;
 			children = (
+				847521462C03FAA9009B2ADA /* Resources */,
+				847521102C03EAB1009B2ADA /* Info.plist */,
+				847521542C0400B5009B2ADA /* SceneDelegate.swift */,
+				847521022C03EAB0009B2ADA /* AppDelegate.swift */,
+				847521062C03EAB0009B2ADA /* ViewController.swift */,
+				8475210B2C03EAB1009B2ADA /* Assets.xcassets */,
 				8475213E2C03F14E009B2ADA /* Extensions */,
+				8475210D2C03EAB1009B2ADA /* LaunchScreen.storyboard */,
+				847521082C03EAB0009B2ADA /* Main.storyboard */,
 				847521352C03F01A009B2ADA /* Model */,
 				847521322C03EF41009B2ADA /* Services */,
-				847521022C03EAB0009B2ADA /* AppDelegate.swift */,
-				847521042C03EAB0009B2ADA /* SceneDelegate.swift */,
-				847521062C03EAB0009B2ADA /* ViewController.swift */,
-				847521082C03EAB0009B2ADA /* Main.storyboard */,
-				8475210B2C03EAB1009B2ADA /* Assets.xcassets */,
-				8475210D2C03EAB1009B2ADA /* LaunchScreen.storyboard */,
-				847521102C03EAB1009B2ADA /* Info.plist */,
+				847521422C03F953009B2ADA /* ViewController */,
+				847521432C03F97A009B2ADA /* ViewModel */,
 			);
 			path = digioStore;
 			sourceTree = "<group>";
@@ -128,18 +141,12 @@
 		847521182C03EAB1009B2ADA /* digioStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				847521192C03EAB1009B2ADA /* digioStoreTests.swift */,
+				847521732C042381009B2ADA /* Product */,
+				847521652C0418F6009B2ADA /* Service */,
+				8475215D2C04162C009B2ADA /* Mock */,
+				847521562C04111A009B2ADA /* Home */,
 			);
 			path = digioStoreTests;
-			sourceTree = "<group>";
-		};
-		847521222C03EAB1009B2ADA /* digioStoreUITests */ = {
-			isa = PBXGroup;
-			children = (
-				847521232C03EAB1009B2ADA /* digioStoreUITests.swift */,
-				847521252C03EAB1009B2ADA /* digioStoreUITestsLaunchTests.swift */,
-			);
-			path = digioStoreUITests;
 			sourceTree = "<group>";
 		};
 		847521322C03EF41009B2ADA /* Services */ = {
@@ -169,6 +176,126 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		847521422C03F953009B2ADA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				847521492C03FC3F009B2ADA /* Cells */,
+				8475214E2C03FCEB009B2ADA /* HomeViewController.swift */,
+				847521502C03FE98009B2ADA /* ProductDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		847521432C03F97A009B2ADA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				847521442C03F9CA009B2ADA /* HomeViewModel.swift */,
+				847521522C03FEC3009B2ADA /* ProductVIewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		847521462C03FAA9009B2ADA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847521472C03FAC9009B2ADA /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		847521492C03FC3F009B2ADA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8475214A2C03FC4E009B2ADA /* ProductCell.swift */,
+				8475214C2C03FC6D009B2ADA /* SpotlightCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		847521562C04111A009B2ADA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8475217C2C042781009B2ADA /* ViewController */,
+				8475215C2C041442009B2ADA /* Cell */,
+				847521192C03EAB1009B2ADA /* digioStoreTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		847521592C041379009B2ADA /* digioStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = digioStoreUITests;
+			sourceTree = "<group>";
+		};
+		8475215C2C041442009B2ADA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				847521622C0417ED009B2ADA /* ViewModel */,
+				847521572C041133009B2ADA /* SpotlightCellTests.swift */,
+				8475215A2C04143D009B2ADA /* ProductCellTests.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8475215D2C04162C009B2ADA /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				847521602C041756009B2ADA /* TestHelper.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		847521622C0417ED009B2ADA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				847521632C041812009B2ADA /* HomeVIewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		847521652C0418F6009B2ADA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				847521662C041909009B2ADA /* ProductServiceTTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		847521732C042381009B2ADA /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				847521772C04267B009B2ADA /* ViewController */,
+				847521742C042391009B2ADA /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		847521742C042391009B2ADA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				847521752C0423A0009B2ADA /* ProductVIewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		847521772C04267B009B2ADA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				847521782C04269C009B2ADA /* ProductDetailViewControllerTests.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8475217C2C042781009B2ADA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8475217A2C04270E009B2ADA /* HomeViewControllerTests.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +321,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8475212C2C03EAB1009B2ADA /* Build configuration list for PBXNativeTarget "digioStoreTests" */;
 			buildPhases = (
-				847521112C03EAB1009B2ADA /* Sources */,
 				847521122C03EAB1009B2ADA /* Frameworks */,
 				847521132C03EAB1009B2ADA /* Resources */,
+				847521682C041AAE009B2ADA /* Sources */,
 			);
 			buildRules = (
 			);
@@ -207,24 +334,6 @@
 			productName = digioStoreTests;
 			productReference = 847521152C03EAB1009B2ADA /* digioStoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8475211E2C03EAB1009B2ADA /* digioStoreUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8475212F2C03EAB1009B2ADA /* Build configuration list for PBXNativeTarget "digioStoreUITests" */;
-			buildPhases = (
-				8475211B2C03EAB1009B2ADA /* Sources */,
-				8475211C2C03EAB1009B2ADA /* Frameworks */,
-				8475211D2C03EAB1009B2ADA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				847521212C03EAB1009B2ADA /* PBXTargetDependency */,
-			);
-			name = digioStoreUITests;
-			productName = digioStoreUITests;
-			productReference = 8475211F2C03EAB1009B2ADA /* digioStoreUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -240,10 +349,6 @@
 						CreatedOnToolsVersion = 15.3;
 					};
 					847521142C03EAB1009B2ADA = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 847520FE2C03EAB0009B2ADA;
-					};
-					8475211E2C03EAB1009B2ADA = {
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 847520FE2C03EAB0009B2ADA;
 					};
@@ -264,7 +369,6 @@
 			targets = (
 				847520FE2C03EAB0009B2ADA /* digioStore */,
 				847521142C03EAB1009B2ADA /* digioStoreTests */,
-				8475211E2C03EAB1009B2ADA /* digioStoreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,19 +391,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8475211D2C03EAB1009B2ADA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		847521412C03F580009B2ADA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -310,7 +407,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run SwiftLint\nSTART_DATE=$(date +\"%s\")\n\nSWIFT_LINT=/usr/local/bin/swiftlint\n\n# Run SwiftLint for given filename\nrun_swiftlint() {\n    local filename=\"${1}\"\n    if [[ \"${filename##*.}\" == \"swift\" ]]; then\n        #${SWIFT_LINT} autocorrect --path \"${filename}\"\n        ${SWIFT_LINT} lint --path \"${filename}\"\n    fi\n}\n\nif [[ -e \"${SWIFT_LINT}\" ]]; then\n    echo \"SwiftLint version: $(${SWIFT_LINT} version)\"\n    # Run for both staged and unstaged files\n    git diff --name-only | while read filename; do run_swiftlint \"${filename}\"; done\n    git diff --cached --name-only | while read filename; do run_swiftlint \"${filename}\"; done\nelse\n    echo \"${SWIFT_LINT} is not installed.\"\n    exit 0\nfi\n\nEND_DATE=$(date +\"%s\")\n\nDIFF=$(($END_DATE - $START_DATE))\necho \"SwiftLint took $(($DIFF / 60)) minutes and $(($DIFF % 60)) seconds to complete.\"\n";
 		};
@@ -322,31 +419,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				847521072C03EAB0009B2ADA /* ViewController.swift in Sources */,
+				8475214D2C03FC6D009B2ADA /* SpotlightCell.swift in Sources */,
+				847521512C03FE98009B2ADA /* ProductDetailViewController.swift in Sources */,
+				847521482C03FAC9009B2ADA /* Constants.swift in Sources */,
 				8475213B2C03F0C4009B2ADA /* ProductItem.swift in Sources */,
 				847521342C03EF6E009B2ADA /* ProductService.swift in Sources */,
+				8475214F2C03FCEB009B2ADA /* HomeViewController.swift in Sources */,
+				847521552C0400B5009B2ADA /* SceneDelegate.swift in Sources */,
+				847521452C03F9CA009B2ADA /* HomeViewModel.swift in Sources */,
 				847521402C03F172009B2ADA /* UIImage+Extension.swift in Sources */,
 				8475213D2C03F102009B2ADA /* SpotlightItem.swift in Sources */,
 				847521032C03EAB0009B2ADA /* AppDelegate.swift in Sources */,
 				847521372C03F02F009B2ADA /* StoreResponse.swift in Sources */,
-				847521052C03EAB0009B2ADA /* SceneDelegate.swift in Sources */,
+				8475214B2C03FC4E009B2ADA /* ProductCell.swift in Sources */,
+				847521532C03FEC3009B2ADA /* ProductVIewModel.swift in Sources */,
 				847521392C03F083009B2ADA /* CashItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		847521112C03EAB1009B2ADA /* Sources */ = {
+		847521682C041AAE009B2ADA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8475211A2C03EAB1009B2ADA /* digioStoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8475211B2C03EAB1009B2ADA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				847521242C03EAB1009B2ADA /* digioStoreUITests.swift in Sources */,
-				847521262C03EAB1009B2ADA /* digioStoreUITestsLaunchTests.swift in Sources */,
+				847521692C041AC0009B2ADA /* ProductServiceTTests.swift in Sources */,
+				8475217B2C04270E009B2ADA /* HomeViewControllerTests.swift in Sources */,
+				8475216A2C041AC0009B2ADA /* TestHelper.swift in Sources */,
+				8475216B2C041AC0009B2ADA /* HomeVIewModelTests.swift in Sources */,
+				8475216C2C041AC0009B2ADA /* SpotlightCellTests.swift in Sources */,
+				8475216D2C041AC0009B2ADA /* ProductCellTests.swift in Sources */,
+				847521762C0423A0009B2ADA /* ProductVIewModelTest.swift in Sources */,
+				8475216E2C041AC0009B2ADA /* digioStoreTests.swift in Sources */,
+				847521792C04269C009B2ADA /* ProductDetailViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,11 +460,6 @@
 			isa = PBXTargetDependency;
 			target = 847520FE2C03EAB0009B2ADA /* digioStore */;
 			targetProxy = 847521162C03EAB1009B2ADA /* PBXContainerItemProxy */;
-		};
-		847521212C03EAB1009B2ADA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 847520FE2C03EAB0009B2ADA /* digioStore */;
-			targetProxy = 847521202C03EAB1009B2ADA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -598,40 +696,6 @@
 			};
 			name = Release;
 		};
-		847521302C03EAB1009B2ADA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raduchiu.digioStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = digioStore;
-			};
-			name = Debug;
-		};
-		847521312C03EAB1009B2ADA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = raduchiu.digioStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = digioStore;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -658,15 +722,6 @@
 			buildConfigurations = (
 				8475212D2C03EAB1009B2ADA /* Debug */,
 				8475212E2C03EAB1009B2ADA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8475212F2C03EAB1009B2ADA /* Build configuration list for PBXNativeTarget "digioStoreUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				847521302C03EAB1009B2ADA /* Debug */,
-				847521312C03EAB1009B2ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
